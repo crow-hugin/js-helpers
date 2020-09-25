@@ -1,6 +1,6 @@
 import {isNumber, isString} from "./utils";
 
-const cookies = {
+export const cookies = {
     isEnabled(): boolean {
         let cookieEnabled = Boolean(navigator.cookieEnabled);
         if (typeof navigator.cookieEnabled == "undefined" && !cookieEnabled) {
@@ -39,4 +39,3 @@ const cookies = {
         }
     }
 }
-export default cookies;
