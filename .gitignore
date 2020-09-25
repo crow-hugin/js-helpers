@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/$CACHE_FILE$
+.idea/$PRODUCT_WORKSPACE_FILE$
+.idea/api.iml
+.idea/markdown-navigator.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/codeStyles/
+.idea/courier.iml
+.idea/inspectionProfiles/
+.idea/jsLinters/
+.idea/workspace.xml
+example/public/
+node_modules/
+.idea/.gitignore
+.idea/js-helpers.iml

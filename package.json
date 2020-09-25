@@ -1,0 +1,36 @@
+{
+    "name": "@server/courier",
+    "version": "1.0.0",
+    "description": "api请求库",
+    "main": "dist/courier.js",
+    "typings": "dist/src/index.d.ts",
+    "directories": {
+        "example": "example"
+    },
+    "scripts": {
+        "build": "webpack -p",
+        "watch": "webpack --watch --watch-poll",
+        "lint": "tslint 'src/**/*.ts'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/crow-hugin/js-helpers.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/lodash": "^4.14.161",
+        "@types/vue": "^2.0.0",
+        "babel-minify-webpack-plugin": "^0.3.1",
+        "ts-loader": "^6.0.4",
+        "typescript": "^3.5.3",
+        "uglifyjs-webpack-plugin": "^2.1.3",
+        "webpack": "^4.37.0",
+        "webpack-build-notifier": "^1.0.3",
+        "webpack-cli": "^3.3.6"
+    },
+    "dependencies": {
+        "lodash": "^4.17.20"
+    }
+}
