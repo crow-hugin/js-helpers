@@ -1,8 +1,8 @@
 {
-    "name": "@server/courier",
+    "name": "@crow-hugin/helpers",
     "version": "1.0.0",
     "description": "api请求库",
-    "main": "dist/courier.js",
+    "main": "dist/helpers.js",
     "typings": "dist/src/index.d.ts",
     "directories": {
         "example": "example"
