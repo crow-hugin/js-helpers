@@ -1,7 +1,4 @@
-import { camelCase, kebabCase, lowerCase, snakeCase, startCase, upperCase, capitalize, escape, unescape, escapeRegExp, lowerFirst, upperFirst, pad, padEnd, padStart, repeat, toLower, toUpper, trim, trimEnd, trimStart, truncate } from "lodash/string";
-import { castArray, cloneDeep, cloneDeepWith, conformsTo, eq, isArray, isArrayBuffer, isArrayLike, isArrayLikeObject, isBoolean, isBuffer, isDate, isElement, isEmpty, isEqual, isEqualWith, isError, isFunction, isLength, isMap, isMatch, isNaN, isNil, isNull, isNumber, isObject, isObjectLike, isPlainObject, isRegExp, isSafeInteger, isSet, isString, isSymbol, isUndefined, isWeakMap, isWeakSet, toArray, toFinite, toInteger, toLength, toString, toNumber } from "lodash/lang";
-import { chunk, compact, pull, remove, first, last, tail, take } from "lodash/array";
-import { countBy, groupBy, keyBy, invokeMap, orderBy, sample, sampleSize, find } from "lodash/array";
+import { camelCase, kebabCase, lowerCase, snakeCase, startCase, upperCase, capitalize, escape, unescape, escapeRegExp, lowerFirst, upperFirst, pad, padEnd, padStart, repeat, toLower, toUpper, trim, trimEnd, trimStart, truncate, castArray, cloneDeep, cloneDeepWith, conformsTo, eq, isArray, isArrayBuffer, isArrayLike, isArrayLikeObject, isBoolean, isBuffer, isDate, isElement, isEmpty, isEqual, isEqualWith, isError, isFunction, isLength, isMap, isMatch, isNaN, isNil, isNull, isNumber, isObject, isObjectLike, isPlainObject, isRegExp, isSafeInteger, isSet, isString, isSymbol, isUndefined, isWeakMap, isWeakSet, toArray, toFinite, toInteger, toLength, toString, toNumber, chunk, compact, pull, remove, first, last, tail, take, countBy, groupBy, keyBy, invokeMap, orderBy, sample, sampleSize, find } from 'lodash';
 /**
  * 生成英文字母
  */

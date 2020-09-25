@@ -1,4 +1,5 @@
 import {
+    // from string
     camelCase,
     kebabCase,
     lowerCase,
@@ -20,10 +21,8 @@ import {
     trim,
     trimEnd,
     trimStart,
-    truncate
-} from "lodash/string"
-
-import {
+    truncate,
+    // from lang
     castArray,
     cloneDeep,
     cloneDeepWith,
@@ -65,10 +64,8 @@ import {
     toInteger,
     toLength,
     toString,
-    toNumber
-} from "lodash/lang"
-
-import {
+    toNumber,
+    // from array
     chunk,
     compact,
     pull,
@@ -76,10 +73,8 @@ import {
     first,
     last,
     tail,
-    take
-} from "lodash/array"
-
-import {
+    take,
+    // from collection
     countBy,
     groupBy,
     keyBy,
@@ -88,7 +83,7 @@ import {
     sample,
     sampleSize,
     find
-} from "lodash/array"
+} from 'lodash'
 
 
 const objString = Object.prototype.toString;
