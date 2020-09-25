@@ -5,7 +5,7 @@ import * as url from "./lib/url"
 import * as float from "./lib/float"
 
 export * from "./lib/utils"
-export * from "./lib/utils"
+export * from "./lib/url"
 export * from "./lib/cookie"
 export * from "./lib/float"
 
