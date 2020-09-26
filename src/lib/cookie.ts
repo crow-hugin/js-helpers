@@ -1,4 +1,4 @@
-import {isNumber, isString} from "./utils";
+import {isNumber, isString} from "lodash";
 
 export const cookies = {
     isEnabled(): boolean {

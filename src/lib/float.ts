@@ -1,4 +1,4 @@
-import {toString} from "./utils";
+import {toString} from "lodash";
 
 /**
  * 浮点运算加法

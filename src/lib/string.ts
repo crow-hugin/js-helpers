@@ -1,4 +1,5 @@
-import {toString, padStart, isDate} from "./utils";
+import {toString, padStart} from "lodash";
+import {isDate} from "./utils"
 
 /**
  * 获取字串长度
